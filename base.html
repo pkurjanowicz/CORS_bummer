@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@2.5.16/dist/vue.js"></script>
+</head>
+<body>
+    <div class="app">
+        <span>Input Word:</span>
+        <input type="text" v-model="word" @keyup.enter="getwordfromdict(word)"/>
+        <p v-if="name !== ''">The word you typed is {{ name }}, it's a {{ figureOfSpeech }}</p>
+    </div>
+</body>
+<script src="server.js"></script>
+<script src="secrets.js"></script>
+</html>
