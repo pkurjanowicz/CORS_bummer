@@ -3,7 +3,7 @@
 ## General Concept
 Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
 
-In short, as Phil would was "awwwww rough"
+In short, as Phil would say "awwwww rough"
 
 There are a few ways around this, one being to spin up your own server(proxy) to handle the requests so that the requests are coming from yourself instead of from the API's server. 
 
