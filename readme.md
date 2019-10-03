@@ -16,19 +16,10 @@ Make a directory with three files in it, html and two JavaScript files, one call
 Open terminal and cd to the directory
 
 ## Step 3
-Run these commands:
-```bash 
-$npm init
+Install the packages with this command:
 ```
-Run through and hit enter until it is done initizing your NPM environment
-```bash 
-$npm i --save express
+npm i
 ```
-This will install express on there(for spinning up the actual server)
-```bash 
-$npm i --save request
-```
-This will install request for actually making the call to that server you are making
 
 ## Step 4
 In the server.js file create an express app that will use the response header: 
