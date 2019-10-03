@@ -1,4 +1,5 @@
 # How to get around CORS
+Keep in mind these instructions are for if you are completely doing this from scratch and not cloning my repo. If you are cloning my repo you can skip the npm i --save steps
 
 ## General Concept
 Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
